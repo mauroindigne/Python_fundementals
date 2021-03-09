@@ -14,3 +14,10 @@
 	- Calculate how many seconds are in a year.
 
 '''
+
+seconds = 60
+minutes = 60
+hour = 24
+days = 365
+
+print(seconds * minutes * hour * days, "seconds in a year")
