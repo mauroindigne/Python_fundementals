@@ -10,3 +10,20 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+num = int(input("Type in any int"))
+# 1
+print(float(num))
+
+
+# 2
+print(int(num))
+
+# 3
+floor = 2.5 // 5
+print(floor)
+
+# 4
+first = int(input("type in a number:"))
+second = int(input("type in another number:"))
+print(first * second)
