@@ -11,3 +11,11 @@ CHALLENGE: Can you edit to script to print only the string with the most charact
            into the topic "Conditionals" to solve this challenge.
 
 '''
+
+first = input("enter any word here:")
+second = input("enter any word here:")
+third = input("enter any word here:")
+
+print(len(first), ":", first)
+print(len(second), ":", second)
+print(len(third), ":", third)

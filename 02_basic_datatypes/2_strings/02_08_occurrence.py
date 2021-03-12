@@ -7,3 +7,7 @@ Letter input: o
 Result: 4
 
 '''
+
+sentence = input("type any sentence that you want:")
+letter = input("enter any 1 letter:")
+print(sentence.count(letter))

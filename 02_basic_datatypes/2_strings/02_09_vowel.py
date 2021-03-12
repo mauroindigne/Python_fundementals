@@ -6,3 +6,8 @@ CHALLENGE: Can you change the script so that it counts the occurrence of each in
            in the string and print a count for each of them?
 
 '''
+
+sentence = input("Enter any sentence that you want:")
+vowels = "aeiou"
+for v in vowels:
+    print(v, sentence.lower().count(v))
