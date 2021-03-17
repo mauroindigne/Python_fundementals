@@ -11,3 +11,5 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+
+numbers = [1, 2, 4, 53, 64, 99]
