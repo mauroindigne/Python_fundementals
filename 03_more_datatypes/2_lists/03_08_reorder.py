@@ -21,3 +21,5 @@ while enter:
         break
 print(digits)
 print(digits[1], digits[3], digits[5], digits[7], digits[9], digits[8], digits[6], digits[4], digits[2], digits[0])
+
+#this one

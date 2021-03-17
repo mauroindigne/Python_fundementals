@@ -35,3 +35,5 @@ while game:
             print("December")
     else:
         print("That is not a valid option")
+
+# will do with dictionarys

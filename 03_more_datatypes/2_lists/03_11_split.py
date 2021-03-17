@@ -11,14 +11,14 @@ words = sentence.split(" ")
 
 def most_frequent(words):
     counter = 0
-    num = words[0]
+    text = words[0]
 
     for i in words:
         curr_frequency = words.count(i)
         if curr_frequency > counter:
             counter = curr_frequency
-            num = i
+            text = i
 
-    return num
+    return text
 
 print("the most common word used was:", most_frequent(words))

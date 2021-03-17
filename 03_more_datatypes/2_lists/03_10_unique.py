@@ -23,3 +23,5 @@ def get_unique_list(list_):
 
 
 print(get_unique_list(list_))
+
+# do it without set

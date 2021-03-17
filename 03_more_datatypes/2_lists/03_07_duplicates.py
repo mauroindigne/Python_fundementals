@@ -11,3 +11,5 @@ for i in list_:
     if i not in clean:
         clean.append(i)
 print(clean)
+
+# what a set is in python

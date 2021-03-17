@@ -11,3 +11,4 @@ dict_2 = {"a": 2, "c": 4 , "d": 2}
 result = {"a": 3, "b": 2, "c": 7 , "d": 2}
 
 '''
+dictionary.keys .values .items
