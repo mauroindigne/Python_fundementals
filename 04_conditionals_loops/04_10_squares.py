@@ -5,3 +5,8 @@ Use a for loop that demonstrates the use of the range function.
 
 '''
 
+number = 0
+
+for number in range(1, 51):
+    print(number, "squared is:", number ** 2)
+    number += 1

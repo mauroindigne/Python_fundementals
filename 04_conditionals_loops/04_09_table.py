@@ -8,3 +8,15 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+j = 0
+count = -1
+# outer loop to handle number of rows
+for i in range(0, 5):
+    # inner loop to handle number of columns
+    for j in range(0, 10):
+        # values is counted up by 1 each time
+        count += 1
+        print(count, " ", end="")
+        # print count then add space and at end of list start new line
+    print()

@@ -12,6 +12,7 @@ print("we need you to enter a total of 10 numbers")
 enter = True
 count = 0
 digits = []
+new_list = []
 while enter:
     if count < 10:
         choices = int(input("Enter a number:"))
@@ -20,6 +21,9 @@ while enter:
     else:
         break
 print(digits)
-print(digits[1], digits[3], digits[5], digits[7], digits[9], digits[8], digits[6], digits[4], digits[2], digits[0])
+for n in digits:
+    if n % 2 == 0:
+        new_list.append(n)
+print(new_list)
 
 #this one

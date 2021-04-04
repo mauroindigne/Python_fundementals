@@ -12,6 +12,8 @@ or chat about it on our forum.
 
 '''
 
-numbers = [1, 2, 4, 53, 64, 99]
+numbers = [1, 31, 4, 83, 100, 99]
 
 # this one
+numbers.sort()
+print("Sorted numbers:", numbers)
