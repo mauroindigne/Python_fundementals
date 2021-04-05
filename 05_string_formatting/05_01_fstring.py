@@ -19,7 +19,16 @@ famous_quotes = [
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
 
-for key, value in famous_quotes.items():
-    print("key: %s" % key)
-    print("value: %s" % value)
+for quote in famous_quotes:
+    for k, v in quote.items():
+        if k == "full_name":
+            fullname = (v.split(" "))
+            lastname = (fullname[1])
+            firstname = (fullname[0])
+        if k == "quote":
+            personalQuote = v
+    print(f'"{personalQuote}" - {lastname}, {firstname}')
+
+
+
 
