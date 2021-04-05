@@ -14,4 +14,15 @@ to flatten a list of any depth. Can you understand the code used?
 
 starting_list = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
 
-# This one
+# make new list to appened items into
+flatten_list = []
+
+# for loop to take all items in list
+for l in starting_list:
+
+    # take each item that we called L and append it into the flattened_list
+    for item in l:
+
+        flatten_list.append(item)
+
+print(flatten_list)
