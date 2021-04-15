@@ -9,8 +9,7 @@ Write a script that completes the following tasks.
 def challenge1(a):
     if a % 4 == 0 or a % 7 == 0:
         return True
-    else:
-        return False
+    return False
 
 
 print(challenge1(4))
@@ -20,8 +19,7 @@ print(challenge1(4))
 def challenge2(a):
     if a % 4 == 0 and a % 7 == 0:
         return True
-    else:
-        return False
+    return False
 
 
 print(challenge2(9))

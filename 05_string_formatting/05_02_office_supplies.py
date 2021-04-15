@@ -25,13 +25,32 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+"""
+for character in office:
+    for k, v in character.items():
+        if k == "full_name":
+            fullname = v.split(" ")
+            lastname = fullname[1]
+            firstname = fullname[0]
+            newfullnmae = lastname, firstname
+        if k == "item":
+            personalItem = v
+    print(f"{lastname:10}, {firstname:10} {personalItem:<20}")
+    """
+
+longestfullname = 0
 
 for character in office:
     for k, v in character.items():
         if k == "full_name":
-            fullname = (v.split(" "))
-            lastname = (fullname[1])
-            firstname = (fullname[0])
+            fullname = v.split(" ")
+            lastname = fullname[1]
+            firstname = fullname[0]
+            newfullname = f"{lastname}, {firstname}"
+            if len(newfullname) > longestfullname:
+                longestfullname = len(newfullname)
+
         if k == "item":
             personalItem = v
-    print(f"{lastname}, {firstname:10} {personalItem:<20}")
+
+    print(f"{newfullname:{longestfullname+1}}  {personalItem:<20}")

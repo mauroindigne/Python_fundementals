@@ -23,4 +23,4 @@ def stats(a):
 
 
 # call the function below here
-print(stats(example_list))
+stats(example_list)
