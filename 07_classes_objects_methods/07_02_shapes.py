@@ -35,4 +35,6 @@ class Circle:
 x = Rectangle(4, 2)
 y = Circle(10)
 
+print(x.area_r())
+
 
