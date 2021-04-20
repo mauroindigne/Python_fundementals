@@ -23,3 +23,22 @@ BONUS CHALLENGE: write a custom Exception that inherits from Exception and raise
 first 100 characters of any of the files contain the string "Prince".
 
 '''
+
+with open("books/war_and_peace.txt", "r") as wap:
+    book1 = wap.read()
+
+with open("books/crime_and_punishment.txt", "w") as cap:
+    book2 = cap.write("")
+
+with open("books/pride_and_prejudice.txt", "r") as pap:
+    book3 = pap.read()
+
+for item in book1, book2, book3:
+    try:
+        print(f"The first character is {item[0]}")
+    except TypeError:
+        print(f"Theres no items in {item}")
+
+
+
+
