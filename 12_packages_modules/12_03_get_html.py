@@ -9,3 +9,9 @@ TIP:
     very common. head over to SO and find a solution!
 
 '''
+#Stack Overflow
+import requests
+url = requests.get("https://codingnomads.co")
+htmltext = url.text
+print(htmltext)
+
