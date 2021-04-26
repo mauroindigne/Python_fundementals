@@ -10,3 +10,19 @@ into different files. Note that you will run into an error when attempting to im
 because Python modules can't begin with a number.
 
 '''
+
+### calc.py
+
+
+def add(x, y):
+    return x + y
+
+
+# testcalc.py
+
+
+from calc import add
+
+
+def test_add():
+    assert add(2, 2) == 4

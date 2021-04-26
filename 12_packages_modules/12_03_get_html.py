@@ -11,7 +11,8 @@ TIP:
 '''
 #Stack Overflow
 import requests
-url = requests.get("https://codingnomads.co")
-htmltext = url.text
+response = requests.get("https://codingnomads.co")
+htmltext = response.text
 print(htmltext)
 
+print(response.status_code)

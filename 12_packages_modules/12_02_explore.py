@@ -8,3 +8,8 @@ import random
 numbers = [i for i in range(1, 20)]
 
 print(random.choice(numbers))
+
+numbers = []
+
+for i in range(1, 20):
+    numbers.append(i)
