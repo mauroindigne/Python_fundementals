@@ -6,5 +6,10 @@ and yields the element and its index
 
 '''
 
-def my_enumerate(# your arguments):
-      # pass
+cars = [3, 5, 53, 34]
+
+def my_enumerate(x):
+    for y in range(len(x)):
+        print(f"lot #{y} has {x[y]} Cars")
+
+my_enumerate(cars)
